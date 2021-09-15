@@ -39,4 +39,4 @@ cat > /etc/cron.d/prom-apt <<"EOF"
 EOF
 sudo firewall-cmd --add-port=9100/tcp --permanent
 sudo systemctl restart firewalld
-echo "Installation succeeded!"
+echo "Successful Installation!"
