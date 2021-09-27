@@ -4,7 +4,7 @@
 
 sudo wget https://github.com/TuNGO-86/script/releases/download/ProductionV1/agentPackagesProduct.zip
 sudo apt install unzip
-unzip agentPackages.zip
+unzip agentPackagesProduct.zip
 sudo chmod +x install.sh
 ./install.sh -i
 echo "Installation succeeded!"
